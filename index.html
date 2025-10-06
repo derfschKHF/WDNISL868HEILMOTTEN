@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>database</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <div id="login">
+    <h2>permission!!:</h2>
+    <input type="password" id="password" placeholder="Пароль" />
+    <button onclick="checkPassword()">Войти</button>
+    <p id="error"></p>
+  </div>
+
+  <div id="content" style="display:none;">
+    <h1>Database 868</h1>
+    <div id="data"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
